@@ -1,0 +1,27 @@
+.auth-page {
+  background-image: url("/images/cafe8.jpg"); /* Path to the image in 'public/images' */
+  background-size: cover; /* Ensure the image covers the entire page */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Ensure the body takes up the full viewport height */
+  margin: 0;
+}
+
+.authentication__header {
+  color: white;
+  text-align: center;
+}
+
+.authentication {
+  width: 90%;
+  max-width: 25rem;
+  margin: 7rem auto;
+  text-align: center;
+
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  backdrop-filter: blur(5px); /* Apply the blur effect */
+}
+
+.authentication form {
+  margin-bottom: 1rem;
+}

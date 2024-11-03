@@ -1,0 +1,18 @@
+.place-list {
+  list-style: none;
+  margin: 1rem auto;
+  padding: 0;
+  width: 90%;
+  max-width: 40rem;
+}
+
+.itemCon {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+  gap: 2rem;
+  justify-items: center;
+  padding: 2rem 0;
+  width: 100%; /* Adjust width if needed */
+  list-style-type: none;
+  padding-left: 30px;
+}

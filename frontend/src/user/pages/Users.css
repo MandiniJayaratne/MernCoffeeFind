@@ -1,0 +1,55 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.users-container {
+  background-image: url("/images/cafe8.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  z-index: 0;
+  background-size: cover;
+  padding-top: 1rem;
+}
+
+.users-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Black overlay with 80% opacity */
+  z-index: 1;
+  pointer-events: none; /* Ensures the overlay doesn't block clicks */
+}
+.users-content {
+  position: relative;
+  z-index: 2; /* Content stays above the overlay */
+  color: white; /* Ensure text is visible against the dark background */
+  text-align: center; /* Center the content */
+  padding: 2rem;
+  font-size: 1rem;
+}
+
+.title {
+  font-size: 1rem;
+  color: #fff;
+
+  text-shadow: 10px 10px 10px rgba(247, 245, 118, 9); /* Adds a shadow around the text */
+}
+
+.user-icon .faHeart {
+  margin-right: 40px; /* Adjust the value for the desired spacing */
+}
+
+.user-icon .faMugHot {
+  margin-right: 40px;
+}

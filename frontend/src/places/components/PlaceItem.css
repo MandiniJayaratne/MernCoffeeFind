@@ -1,0 +1,78 @@
+.place-item {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  border: var(--border);
+  border-radius: 1rem;
+  box-shadow: var(--box-shadow);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  width: 23rem;
+  height: 35rem;
+}
+
+.place-item:hover {
+  transform: scale(1.05);
+}
+
+.place-item__image {
+  width: 100%;
+  height: 20rem;
+  border-bottom: var(--border);
+}
+
+.place-item__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.place-item__info {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.place-item__info h2 {
+  font-size: 1rem;
+  color: darkgoldenrod;
+  margin-bottom: 1rem;
+}
+
+.place-item__info h3 {
+  font-size: 1rem;
+  color: var(--black);
+  margin-bottom: 1.5rem;
+}
+
+.place-item__actions {
+  padding: 1.5rem;
+  text-align: center;
+  border-top: var(--border);
+}
+
+.place-item__actions button {
+  margin: 0.3rem;
+}
+.place-item__actions a {
+}
+
+.btn {
+  background-color: goldenrod;
+  color: white;
+  border: none;
+  padding: 3px;
+  max-width: 30px;
+  margin-left: 276px;
+}
+
+@media (max-width: 1024px) {
+  .itemCon {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .itemCon {
+    grid-template-columns: 1fr;
+  }
+}
