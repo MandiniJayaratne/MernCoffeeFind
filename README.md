@@ -28,7 +28,7 @@
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/MandiniJayaratne/coffeeFind.git
+   git clone https://github.com/MandiniJayaratne/MernCoffeeFind.git
    cd coffeeFind
 
 2. **Backend Setup**:
