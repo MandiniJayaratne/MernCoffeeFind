@@ -41,11 +41,11 @@
     ```bash
    npm start
    
-3. **Frontend Setup**:
+2. **Frontend Setup**:
 
-   ```bash
-  cd frontend
-  npm install
-  npm start
+    ```bash
+   cd frontend
+   npm install
+   npm start
 
 
