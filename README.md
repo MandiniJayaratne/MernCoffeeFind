@@ -32,44 +32,42 @@
    cd coffeeFind
 
 2. **Backend Setup**:
+   - Navigate to the backend directory:
+     ```bash
+     cd backend
+     ```
 
-Navigate to the backend directory:
+   - Install dependencies:
+     ```bash
+     npm install
+     ```
 
-```bash
-cd backend
+   - **Configure the MongoDB connection**:  
+     Create a `.env` file in the `backend` directory and add your MongoDB connection string:
+     ```plaintext
+     MONGODB_URI=your_mongodb_connection_string
+     JWT_SECRET=your_jwt_secret
+     ```
 
-Install dependencies:
+   - Start the backend server:
+     ```bash
+     npm start
+     ```
 
-```bash
-npm install
+3. **Frontend Setup**:
+   - Open a new terminal and navigate to the frontend directory:
+     ```bash
+     cd ../frontend
+     ```
 
-Configure the MongoDB connection:
+   - Install dependencies:
+     ```bash
+     npm install
+     ```
 
-```bash
-MONGODB_URI=your_mongodb_connection_string
-
-Start the backend server:
-
-```bash
-npm start
-
-
-Frontend Setup:
-
-Open a new terminal and navigate to the frontend directory:
-
-bash
-Copy code
-cd ../frontend
-Install dependencies:
-
-bash
-Copy code
-npm install
-Start the React app:
-
-bash
-Copy code
-npm start
+   - Start the React app:
+     ```bash
+     npm start
+     ```
 
 
