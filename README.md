@@ -41,7 +41,7 @@
     ```bash
    npm start
    
-3. **Frontend Setup**
+3. **Frontend Setup**:
 
    ```bash
   cd frontend
