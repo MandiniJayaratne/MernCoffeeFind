@@ -31,30 +31,29 @@
    git clone https://github.com/your-username/coffeeFind.git
    cd coffeeFind
 
-Backend Setup:
+2. **Backend Setup**:
 
 Navigate to the backend directory:
 
-bash
-Copy code
+```bash
 cd backend
+
 Install dependencies:
 
-bash
-Copy code
+```bash
 npm install
-Configure the MongoDB connection:
-Create a .env file in the backend directory and add your MongoDB connection string:
 
-plaintext
-Copy code
+Configure the MongoDB connection:
+
+```bash
 MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
+
 Start the backend server:
 
-bash
-Copy code
+```bash
 npm start
+
+
 Frontend Setup:
 
 Open a new terminal and navigate to the frontend directory:
