@@ -16,3 +16,28 @@
 - **Database**: MongoDB 🗄️ (with Mongoose for ORM)
 - **Authentication**: JWT (JSON Web Tokens) 🔐 for secure access control
 - **Password Hashing**: bcrypt 🔑 for secure storage
+
+- ## Installation and Setup 🛠️
+
+### Prerequisites
+
+- Node.js and npm
+- MongoDB (or a cloud-based MongoDB service)
+
+### Steps
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/coffeeFind.git
+   cd coffeeFind
+
+2. **Backend Setup**:
+
+   **cd backend**
+   **npm install**
+
+   **Configure the MongoDB connection - MONGODB_URI=your_mongodb_connection_string**
+
+ **npm start**
+
+
