@@ -35,26 +35,42 @@ Backend Setup:
 
 Navigate to the backend directory:
 
+bash
+Copy code
 cd backend
+Install dependencies:
 
+bash
+Copy code
+npm install
+Configure the MongoDB connection:
+Create a .env file in the backend directory and add your MongoDB connection string:
 
-    ```bash
-   cd backend
-   npm install
+plaintext
+Copy code
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+Start the backend server:
 
-  * Configure the MongoDB connection
-    ```bash
-    MONGODB_URI=your_mongodb_connection_string
+bash
+Copy code
+npm start
+Frontend Setup:
 
-   ```bash
+Open a new terminal and navigate to the frontend directory:
 
-   npm start
-   
-3. **Fontend Setup**
+bash
+Copy code
+cd ../frontend
+Install dependencies:
 
-    ```bash
-   cd frontend
-   npm install
-   npm start
+bash
+Copy code
+npm install
+Start the React app:
+
+bash
+Copy code
+npm start
 
 
