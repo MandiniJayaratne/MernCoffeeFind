@@ -37,7 +37,7 @@
    cd backend
    npm install
 
-  * **Configure the MongoDB connection-> ** 
+  * Configure the MongoDB connection-> * 
     ```bash
     MONGODB_URI=your_mongodb_connection_string
 
