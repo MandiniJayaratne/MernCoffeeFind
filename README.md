@@ -17,7 +17,7 @@
 - **Authentication**: JWT (JSON Web Tokens) 🔐 for secure access control
 - **Password Hashing**: bcrypt 🔑 for secure storage
 
-- ## Installation and Setup 🛠️
+## Installation and Setup 🛠️
 
 ### Prerequisites
 
