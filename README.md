@@ -37,9 +37,14 @@
    cd backend
    npm install
 
-   **Configure the MongoDB connection - MONGODB_URI=your_mongodb_connection_string**
-
-   ```bash
+  **Configure the MongoDB connection - MONGODB_URI=your_mongodb_connection_string**:
    npm start
+
+3.**Frontend Setup**
+
+```bash
+cd frontend
+npm install
+npm start
 
 
