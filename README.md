@@ -33,11 +33,11 @@
 
 2. **Backend Setup**:
 
-   **cd backend**
-   **npm install**
+   cd backend
+   npm install
 
    **Configure the MongoDB connection - MONGODB_URI=your_mongodb_connection_string**
 
- **npm start**
+  npm start
 
 
